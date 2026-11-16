@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ogbonna Darlington Portfolio</title>
+    <title>Ogbenna Darlington Portfolio</title>
     <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/newcss.css" />
     <link
@@ -13,10 +13,10 @@
     />
   </head>
 
-  <body oncontextmenu="return false">
+  <body oncontextmenu="return false;">
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Darlington</a>
+        <a href="#" class="nav__logo">Ogbenna Darlington</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
@@ -53,7 +53,6 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
-
           <!-- Theme change button -->
           <i class="uil uil-moon change-theme" id="theme-button"></i>
 
@@ -121,12 +120,19 @@
             </div>
             <div class="home__data">
               <h1 class="home__title">Hi, I'm Ogbenna Darlington</h1>
+
               <h3 class="home__subtitle">
-                Full-Stack Web Developer
+                Full-Stack Web Developer | Cloud & DevOps
               </h3>
+
               <p class="home__description">
-                Computer Science student and full-stack developer passionate about turning ideas into responsive, functional, and user-friendly web applications. I specialize in <strong>frontend development</strong> while also building <strong>backend systems, APIs, and database-driven applications. </strong>
+                Computer Science student and software developer focused on
+                building responsive, functional, and user-friendly web
+                applications. My experience spans
+                <strong>frontend and backend web development</strong>, alongside
+                <strong>cloud computing and DevOps</strong> technologies.
               </p>
+
               <a href="#portfolio" class="button button--flex">
                 View My Projects<i class="uil uil-message button__icon"></i>
               </a>
@@ -147,123 +153,150 @@
         </div>
       </section>
 
-      <!--======================= About========================-->
-
+      <!--======================= ABOUT ========================-->
       <section class="about section" id="about">
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
 
-        <div class="about__container container grid">
-          <img src="assets\img\about.jpg" alt="" class="about__img" />
+        <div class="about__layout">
+          <!-- Photo -->
+          <div class="about__media">
+            <img
+              src="assets/img/darlington.jpg"
+              alt="Portrait of Ogbenna Darlington"
+              class="about__photo"
+              width="320"
+              height="352"
+              loading="lazy"
+            />
+          </div>
 
-          <div class="about__data">
-            <div class="about__description">
-              <p>Full-Stack Web Developer and Computer Science student with hands-on experience building responsive websites and web applications. </p>
-            </div>
-            <div class="about__description">  
-              <p>I specialize in frontend development with <strong>HTML, CSS, JavaScript, React, and Next.js,</strong> while also working with <strong>Node.js, REST APIs, MongoDB, and MySQL for backend development.</strong>
-            </div>
-          </p>
-                <p>I have built personal projects and delivered freelance solutions including business websites, e-commerce applications, sales systems, and school websites. I'm particularly interested in building clean, responsive, and practical digital products and am currently open to remote opportunities.</p>
+          <!-- Content -->
+          <div class="about__content">
+            <p class="about__lead">
+              Computer Science student and full-stack web developer who builds
+              responsive, user-friendly applications across the frontend,
+              backend and cloud.
             </p>
 
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">05+</span>
-                <span class="about__info-name"
-                  >
-                  Projects</span
-                >
-              </div>
+            <p class="about__text">
+              I have delivered personal and team projects, including business
+              websites and web apps, and completed a hands-on Cloud and DevOps
+              bootcamp. I am open to internship, junior developer and
+              collaboration opportunities.
+            </p>
 
-              <div>
-                <span class="about__info-title">06+</span>
-                <span class="about__info-name">Months <br />experience</span>
-              </div>
-            </div>
+            <ul class="about__chips" aria-label="Technologies I work with">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>REST APIs</li>
+              <li>AWS</li>
+              <li>Azure</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+            </ul>
 
-            <div class="about__buttons">
-              <a href="assets/Darlington_Ogbonna_CV.pdf" target="_blank" class="button button--flex"> View CV<i class="fas fa-file-pdf button__icon"></i></a>
+            <ul class="about__stats">
+              <li class="about__stat">
+                <span class="about__stat-number">06+</span>
+                <span class="about__stat-label">Projects built</span>
+              </li>
+              <li class="about__stat">
+                <span class="about__stat-number">12+</span>
+                <span class="about__stat-label">Months of experience</span>
+              </li>
+              <li class="about__stat">
+                <span class="about__stat-number">02</span>
+                <span class="about__stat-label">Bootcamps completed</span>
+              </li>
+            </ul>
 
+            <div class="about__actions">
+              <a
+                href="assets/Darlington_Ogbonna_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button button--flex"
+              >
+                View CV<i class="fas fa-file-pdf button__icon"></i>
+              </a>
+              <a href="#contact" class="button button--flex button--outline">
+                Get in touch<i class="uil uil-message button__icon"></i>
+              </a>
             </div>
           </div>
+        </div>
 
-          <div class="home__scroll">
-            <a href="#skills" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
-          </div>
+        <div class="home__scroll about__scroll">
+          <a href="#skills" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
         </div>
       </section>
 
       <!--===================== SKILLS =====================-->
-
       <section class="skills section" id="skills">
         <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical level</span>
+        <span class="section__subtitle"
+          >Technologies, platforms, and tools</span
+        >
 
         <div class="skills__container container grid">
           <div>
-            <!--==================== Skill 1 =================-->
+            <!--==================== FRONTEND ====================-->
             <div class="skills__content skills__open">
               <div class="skills__header">
                 <i class="fas fa-pencil-ruler skills__icon"></i>
-
                 <div>
                   <h1 class="skills__title">Frontend</h1>
                 </div>
-
                 <i class="uil uil-angle-down skills__arrow"></i>
               </div>
-              
 
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">HTML5</h3>
                   </div>
-                  
                 </div>
-                
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">CSS</h3>
-                    </div>
-                    
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS3</h3>
                   </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">JavaScript</h3>
-                    </div>
-                    
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">React.js</h3>
-                    </div>
-                   
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Next.js</h3>
-                    </div>
                 </div>
-                
-                
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React.js</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Next.js</h3>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <!--==================== Skill 2 =================-->
+            <!--==================== BACKEND ====================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
                 <i class="fas fa-code skills__icon"></i>
-
                 <div>
                   <h1 class="skills__title">Backend</h1>
                 </div>
-
                 <i class="uil uil-angle-down skills__arrow"></i>
               </div>
 
@@ -272,44 +305,34 @@
                   <div class="skills__titles">
                     <h3 class="skills__name">Node.js</h3>
                   </div>
-                  
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Express.js</h3>
                   </div>
-                  
                 </div>
-
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">REST APIs</h3>
                   </div>
-                  
                 </div>
-
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">PHP</h3>
                   </div>
-                  
                 </div>
-
-                
               </div>
             </div>
           </div>
 
           <div>
-            <!--==================== Skill 3 =================-->
+            <!--==================== DATABASE & TOOLS ====================-->
             <div class="skills__content skills__close">
               <div class="skills__header">
-                <i class="fas fa-swatchbook skills__icon"></i>
+                <i class="fas fa-database skills__icon"></i>
                 <div>
-                  <h1 class="skills__title">Database & Tools</h1>
+                  <h1 class="skills__title">Database &amp; Tools</h1>
                 </div>
-
                 <i class="uil uil-angle-down skills__arrow"></i>
               </div>
 
@@ -318,44 +341,80 @@
                   <div class="skills__titles">
                     <h3 class="skills__name">MongoDB</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">MySQL</h3>
                   </div>
-                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Postman</h3>
+                  </div>
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">Git</h3>
                   </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">GitHub</h3>
                   </div>
-                  
+                </div>
+              </div>
+            </div>
+
+            <!--==================== CLOUD & DEVOPS ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-cloud skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Cloud Computing &amp; DevOps</h1>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Microsoft Azure</h3>
+                  </div>
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name"></h3>
+                    <h3 class="skills__name">Amazon Web Services (AWS)</h3>
                   </div>
-                  
-                </div>
-                
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name"></h3>
-                  </div>
-                  
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name"></h3>
+                    <h3 class="skills__name">Cloud Networking</h3>
                   </div>
-                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Cloud Security</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Docker</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Kubernetes</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Automation</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Cloud Deployment</h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -400,7 +459,7 @@
               data-content
               id="education"
             >
-              <!--====== Qualification 1 ======-->
+              <!--====== Qualification 1: Education (LEFT) ======-->
               <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">Education</h3>
@@ -409,7 +468,7 @@
                   >
                   <div class="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
-                    2024- 2028
+                    2024 - 2028
                   </div>
                   <span
                     class="button button--flex button--small button--link services__button"
@@ -429,14 +488,18 @@
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
                           <p>
-                            Developing a strong foundation in software development,
+                            Developing a strong foundation in software
+                            development,
                           </p>
                         </li>
                         <li class="services__modal-service">
                           <i
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
-                          <p>programming, databases, algorithms, software engineering,</p>
+                          <p>
+                            programming, databases, algorithms, software
+                            engineering,
+                          </p>
                         </li>
                         <li class="services__modal-service">
                           <i
@@ -453,9 +516,11 @@
                   <span class="qualification__rounder"></span>
                   <span class="qualification__line"></span>
                 </div>
+
+                <div></div>
               </div>
 
-              <!--====== Qualification 2 ======-->
+              <!--====== Qualification 2: Training (RIGHT) ======-->
               <div class="qualification__data">
                 <div></div>
 
@@ -463,6 +528,7 @@
                   <span class="qualification__rounder"></span>
                   <span class="qualification__line"></span>
                 </div>
+
                 <div>
                   <h3 class="qualification__title">Training</h3>
                   <span class="qualification__subtitle"
@@ -470,7 +536,7 @@
                   >
                   <div class="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
-                    - 2024
+                    2024
                   </div>
                   <span
                     class="button button--flex button--small button--link services__button"
@@ -480,9 +546,7 @@
                   </span>
                   <div class="services__modal">
                     <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Cohort 6 Summary :
-                      </h4>
+                      <h4 class="services__modal-title">Cohort 6 Summary :</h4>
                       <i class="uil uil-times services__modal-close"></i>
                       <ul class="services__modal-services grid">
                         <li class="services__modal-service">
@@ -490,19 +554,91 @@
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
                           <p>
-                           Completed hands-on training in frontend and backend web development.
+                            Completed hands-on training in frontend and backend
+                            web development.
                           </p>
                         </li>
                         <li class="services__modal-service">
                           <i
                             class="uil uil-check-circle services__moda-icon"
                           ></i>
-                          <p>Practical experience building responsive websites, web applications, APIs, and database-driven solutions.</p>
+                          <p>
+                            Practical experience building responsive websites,
+                            web applications, APIs, and database-driven
+                            solutions.
+                          </p>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <!--====== Qualification 3: Cloud Computing & DevOps (LEFT) ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Cloud Computing &amp; DevOps Bootcamp
+                  </h3>
+                  <span class="qualification__subtitle">TechCrush</span>
+
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    Completed
+                  </div>
+
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Cloud Computing &amp; DevOps Bootcamp
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Hands-on cloud and DevOps bootcamp covering major
+                            cloud platforms and infrastructure concepts.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Microsoft Azure, Amazon Web Services (AWS), cloud
+                            networking, and security.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Docker, Kubernetes, automation, and application
+                            deployment.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+
+                <div></div>
               </div>
             </div>
           </div>
@@ -517,54 +653,84 @@
         <div class="portfolio__container container swiper-container">
           <div class="swiper-wrapper">
             <!-- ------------------------portfollio 1-------------------- -->
+
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/academy banner.png" class="portfolio__img" />
+              <img
+                src="assets/img/lifeoscover.png"
+                class="portfolio__img"
+                alt="LifeOS Application"
+              />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  D-Tech Academy
-                </h3>
+                <h3 class="portfolio__title">LifeOS – Life Operating System</h3>
+
                 <p class="portfolio__description">
-                  D-TECH Academy is a responsive multi-page website (Home, About, Courses, Blog, Contact) for a fictional tech training academy in Owerri, Nigeria. Built with React, React Router and Vite; originally built in HTML/CSS/JS and converted to a component-based React app.
+                  A personal productivity and life management application
+                  designed to help users organise their daily activities in one
+                  place. LifeOS brings together task management, calendar,
+                  habits, goals, focus sessions, notes, scheduling, progress
+                  tracking, and analytics to help users stay organised and
+                  productive. Features include user authentication, a
+                  personalised dashboard, and light/dark/system theme options.
+                  <br />
+                  Tech stack: React.js, JavaScript, CSS3, Context API, Local
+                  Storage
                 </p>
+
+                <!-- TODO: replace with your real LifeOS GitHub repository URL -->
                 <a
-                  href="https://github.com/Darlington000/d-tech-academy.git"
-                  class="button button--flex button--small portfolio__button" target="_blank"
+                  href="YOUR_LIFEOS_GITHUB_REPOSITORY"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub Repository
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
+
                 <a
-                  href="https://dtechacademy.vercel.app/"
-                  class="button button--flex button--small portfolio__button" target="_blank"
+                  href="https://lifeos-omega-smoky.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   See Live
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
               </div>
             </div>
-            <!-- ------------------------portfollio 2-------------------- -->
 
+            <!-- ------------------------portfollio 2-------------------- -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/luxestep.png" class="portfolio__img" />
+              <img
+                src="assets/img/academy banner.png"
+                class="portfolio__img"
+                alt="D-Tech Academy website"
+              />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  LuxeStep: Premium Footwear Website
-                </h3>
+                <h3 class="portfolio__title">D-Tech Academy</h3>
                 <p class="portfolio__description">
-                  A responsive, dark-themed e-commerce site for a premium footwear brand. Features a [product catalog with category filters], [detailed product pages], [a working shopping cart], and smooth animations, optimized for mobile and desktop. Built with [React, Vite, CSS] and deployed on Vercel.
+                  D-TECH Academy is a responsive multi-page website (Home,
+                  About, Courses, Blog, Contact) for a fictional tech training
+                  academy in Owerri, Nigeria. Built with React, React Router and
+                  Vite; originally built in HTML/CSS/JS and converted to a
+                  component-based React app.
                 </p>
                 <a
-                  href="https://github.com/Darlington000/my-shoe-website"
-                  class="button button--flex button--small portfolio__button" target="_blank"
+                  href="https://github.com/Darlington000/d-tech-academy.git"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub Repository
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
                 <a
-                  href="https://luxestep-premium-footwear.vercel.app/"
-                  class="button button--flex button--small portfolio__button" target="_blank"
+                  href="https://dtechacademy.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   See Live
                   <i class="uil uil-external-link-alt button__icon"></i>
@@ -572,24 +738,46 @@
               </div>
             </div>
             <!-- ------------------------portfollio 3-------------------- -->
+
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio3.png" class="portfolio__img" />
+              <img
+                src="assets/img/nexora-cover.png"
+                class="portfolio__img"
+                alt="Nexora Technologies Website"
+              />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Language Translator</h3>
+                <h3 class="portfolio__title">Nexora Technologies</h3>
+
                 <p class="portfolio__description">
-                  A fully responsive web app that translates text between 58 languages in real time. Users can auto-detect the source language, swap input/output with a single click, upload a text file to translate instantly, and download the translated result. The interface includes a smooth light/dark mode toggle and a live character counter, all built without any frameworks. <br>Tech stack: HTML5, CSS3, JavaScript (Vanilla)
+                  A modern, multi-page technology company website developed as a
+                  collaborative React project. Nexora Technologies showcases
+                  digital solutions including software development, web design,
+                  cybersecurity, IT consulting, and digital transformation. The
+                  platform features company information, services, projects,
+                  team profiles, contact, and authentication pages. Developed
+                  collaboratively as part of a six-member development team, with
+                  responsibility for project leadership and integration.
+                  <br />
+                  Tech stack: React.js, JavaScript, CSS3, React Router, Git,
+                  GitHub
                 </p>
+
                 <a
-                  href="https://github.com/Darlington000/Language-Translator.git"
-                  class="button button--flex button--small portfolio__button" target="_blank"
+                  href="https://github.com/NextGen-Devlopers/Nexora-Technologies"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub Repository
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
+
                 <a
-                  href="https://languagetranslator-amber.vercel.app/"
-                  class="button button--flex button--small portfolio__button" target="_blank"
+                  href="https://nexora-technologies-xi.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   See Live
                   <i class="uil uil-external-link-alt button__icon"></i>
@@ -599,24 +787,118 @@
 
             <!-- ------------------------portfollio 4-------------------- -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/CrestPoint.png" class="portfolio__img" />
+              <img
+                src="assets/img/luxestep.png"
+                class="portfolio__img"
+                alt="LuxeStep footwear website"
+              />
 
               <div class="portfolio__data">
-                <h3 class="portfolio__title">CrestPoint Advisory: Financial Advisory Website</h3>
+                <h3 class="portfolio__title">
+                  LuxeStep: Premium Footwear Website
+                </h3>
                 <p class="portfolio__description">
-                  CrestPoint Advisory is a responsive financial-services website built with React, Vite, and React Router. It features six pages, authentication, a protected client dashboard, interactive financial calculators, and consultation requests, all wrapped in a custom navy-and-gold design with reusable components.
+                  A responsive, dark-themed e-commerce site for a premium
+                  footwear brand. Features a product catalog with category
+                  filters, detailed product pages, a working shopping cart, and
+                  smooth animations, optimized for mobile and desktop. Built
+                  with React, Vite and CSS, and deployed on Vercel.
+                </p>
+                <a
+                  href="https://github.com/Darlington000/my-shoe-website"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://luxestep-premium-footwear.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ------------------------portfollio 5-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio3.png"
+                class="portfolio__img"
+                alt="Language Translator app"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Language Translator</h3>
+                <p class="portfolio__description">
+                  A fully responsive web app that translates text between 58
+                  languages in real time. Users can auto-detect the source
+                  language, swap input/output with a single click, upload a text
+                  file to translate instantly, and download the translated
+                  result. The interface includes a smooth light/dark mode toggle
+                  and a live character counter, all built without any
+                  frameworks. <br />Tech stack: HTML5, CSS3, JavaScript
+                  (Vanilla)
+                </p>
+                <a
+                  href="https://github.com/Darlington000/Language-Translator.git"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://languagetranslator-amber.vercel.app/"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- ------------------------portfollio 6-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/CrestPoint.png"
+                class="portfolio__img"
+                alt="CrestPoint Advisory website"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  CrestPoint Advisory: Financial Advisory Website
+                </h3>
+                <p class="portfolio__description">
+                  CrestPoint Advisory is a responsive financial-services website
+                  built with React, Vite, and React Router. It features six
+                  pages, authentication, a protected client dashboard,
+                  interactive financial calculators, and consultation requests,
+                  all wrapped in a custom navy-and-gold design with reusable
+                  components.
                 </p>
                 <a
                   href="https://github.com/Darlington000/CrestPoint"
                   class="button button--flex button--small portfolio__button"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub Repository
                   <i class="uil uil-external-link-alt button__icon"></i>
                 </a>
                 <a
                   href="https://crestpoints.vercel.app/"
-                  class="button button--flex button--small portfolio__button" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   See Live
                   <i class="uil uil-external-link-alt button__icon"></i>
@@ -648,9 +930,9 @@
               <i class="uil uil-calling contact__icon"></i>
 
               <div>
-                <h3 class="contact__title">Contact Me</h3>
+                <h3 class="contact__title">Phone</h3>
                 <span class="contact__subtitle"
-                  ><a href="tel:6362243314"></a>08138177632</span
+                  ><a href="tel:+2348138177632">08138177632</a></span
                 >
               </div>
             </div>
@@ -672,7 +954,7 @@
               <div>
                 <h3 class="contact__title">Location</h3>
                 <span class="contact__subtitle"
-                  >Owerr, IMO-State, Nigeria</span
+                  >Owerri, Imo State, Nigeria</span
                 >
               </div>
             </div>
@@ -704,7 +986,7 @@
 
             <div>
               <a
-                href=" mailto: rkamathvenkatesh@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+                href="mailto:darlingtonogbenna91@gmail.com?subject=Portfolio%20enquiry"
                 class="button button--flex"
               >
                 Send Message
@@ -722,9 +1004,7 @@
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Darlington</h1>
-            <span class="footer__subtitle"
-              >Computer Science Student</span
-            >
+            <span class="footer__subtitle">Computer Science Student</span>
           </div>
 
           <ul class="footer__links">
@@ -743,22 +1023,24 @@
             <a
               href="https://www.instagram.com/"
               class="footer__social"
-              target="__blank"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-            <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-instagram"></i>
             </a>
 
             <a
               href="https://twitter.com/"
-              target="__blank"
+              target="_blank"
+              rel="noopener noreferrer"
               class="footer__social"
             >
-            <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-x-twitter"></i>
             </a>
           </div>
         </div>
 
-        <p class="footer__copy">&#169; Darlington. All right reserved</p>
+        <p class="footer__copy">&#169; Darlington. All rights reserved.</p>
       </div>
     </footer>
 
@@ -768,7 +1050,10 @@
     </a>
 
     <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/2205d59d52.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/ptj.js"></script>
   </body>
 </html>
